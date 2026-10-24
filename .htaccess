@@ -1,0 +1,6 @@
+Options -Indexes
+AddDefaultCharset UTF-8
+
+<FilesMatch "^(config\.php|lib\.php)$">
+    Require all denied
+</FilesMatch>
